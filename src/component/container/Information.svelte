@@ -1,5 +1,5 @@
 <script lang="ts">
-import profileImg from "../../assets/image/profile-remove.png"
+import Profile from "../../assets/image/profile-remove.png"
 import Row from "../grid/Row.svelte";
 import SectionTitle from "../typography/SectionTitle.svelte";
 import TextGradient from "../typography/TextGradient.svelte";
@@ -10,7 +10,9 @@ import Container from "./Container.svelte";
 <div class="container">
     <div class="row no-gutters">
         <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start">
-            <img src={profileImg} class="img-fluid" alt="">
+          <div class="profile bg-gradient-primary-to-secondary" >
+              <img class="profile-img" src={Profile} alt="..." />
+          </div>
         </div>
         <div class="col-xl-7 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
