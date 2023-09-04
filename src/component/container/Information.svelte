@@ -1,5 +1,5 @@
 <script lang="ts">
-import profileImg from "../../assets/image/profile.jpg"
+import profileImg from "../../assets/image/profile-remove.png"
 import Row from "../grid/Row.svelte";
 import SectionTitle from "../typography/SectionTitle.svelte";
 import TextGradient from "../typography/TextGradient.svelte";
