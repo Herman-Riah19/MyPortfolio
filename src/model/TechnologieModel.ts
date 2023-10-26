@@ -39,14 +39,6 @@ export const TechnologieModel: Array<Model> = [
     },
     {
         id: 3,
-        name: "Angular",
-        language: "TypeScript",
-        type: "Framework Front-End",
-        icon:`${Angular}`,
-        experience: "1 ans"
-    },
-    {
-        id: 4,
         name: "Svelte",
         language: "JavaScript/TypeScript",
         type: "Framework Front-End",
@@ -54,9 +46,17 @@ export const TechnologieModel: Array<Model> = [
         experience: "1 ans"
     },
     {
+        id: 4,
+        name: "Angular",
+        language: "TypeScript",
+        type: "Framework Front-End",
+        icon:`${Angular}`,
+        experience: "1 ans"
+    },    
+    {
         id: 5,
         name: "Nodejs",
-        language: "JavaScript/TypeScript",
+        language: "TypeScript",
         type: "Framework Back-End",
         icon:`${Node}`,
         experience: "3 ans"
