@@ -20,7 +20,7 @@
               <TextGradient>Location:</TextGradient>
               <TextMuted>
                 Lot IB 86 Antanambao Imeritsiatosika<br />
-                Antananarivo, 101
+                Antananarivo, 112
               </TextMuted>
             </div>
           </div>
