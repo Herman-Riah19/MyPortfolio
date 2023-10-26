@@ -13,7 +13,7 @@ export let model: ResumeModel = {}
         <div class="bg-light p-4 rounded-4">
           <TextGradient>{model.date}</TextGradient>
           <div class="small fw-bolder">{model.title}</div>
-          <div class="small text-muted">{model.institute}</div>
+          <div class="small text-muted text-gradient">{model.institute}</div>
           <div class="small text-muted">{model.city}</div>
         </div>
       </div>
