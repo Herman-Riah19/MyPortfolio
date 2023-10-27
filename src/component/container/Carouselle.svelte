@@ -52,19 +52,7 @@
       </div>
     </div>
     <div class="col-xxl-7">
-      <!-- Header profile picture-->
       <div class="d-flex justify-content-center mt-xxl-0">
-        <div
-          class="profile bg-gradient-primary-to-secondary"
-          bind:this={gradientCard}
-        >
-          <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-          <!-- Watch a tutorial on how to do this on YouTube (link)-->
-          <img class="profile-img" src={Profile} alt="..." />
-          <Dots />
-        </div>
-      </div>
-      <div class="justify-content-center mt-xxl-0">
         <Row>
           <div class="contact" bind:this={gradientCard}>
             <div class="contact-about">
@@ -102,6 +90,20 @@
             </div>
           </div>
         </Row>
+      </div>
+    </div>
+    <div class="col-xxl-7">
+      <!-- Header profile picture-->
+      <div class="d-flex justify-content-center mt-xxl-0">
+        <div
+          class="profile bg-gradient-primary-to-secondary"
+          bind:this={gradientCard}
+        >
+          <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
+          <!-- Watch a tutorial on how to do this on YouTube (link)-->
+          <img class="profile-img" src={Profile} alt="..." />
+          <Dots />
+        </div>
       </div>
     </div>
   </div>
