@@ -51,7 +51,7 @@
         </h1>
       </div>
     </div>
-    <div class="col-xxl-7 ">
+    <div class="col-xxl-7">
       <!-- Header profile picture-->
       <div class="d-flex justify-content-center mt-xxl-0">
         <div
@@ -63,43 +63,51 @@
           <img class="profile-img" src={Profile} alt="..." />
           <Dots />
         </div>
+      </div>
+      <div class="justify-content-center mt-xxl-0">
         <Row>
-            <div class="contact" bind:this={gradientCard}>
-              <div class="contact-about">
-                <div class="social-links">
-                  <a
-                    href="https://www.facebook.com/riah.hermann/"
-                    class="facebook"
+          <div class="contact" bind:this={gradientCard}>
+            <div class="contact-about">
+              <div class="social-links">
+                <a
+                  href="https://www.facebook.com/riah.hermann/"
+                  class="facebook"
+                >
+                  <TextGradient><i class="bx bxl-facebook" /></TextGradient>
+                </a>
+                <a
+                  href="https://www.instagram.com/riah.hermann"
+                  class="instagram"
+                >
+                  <TextGradient><i class="bx bxl-instagram" /></TextGradient>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/hermann-razafindranaivo-174378237/"
+                  class="instagram"
+                >
+                  <TextGradient><i class="bx bxl-linkedin" /></TextGradient>
+                </a>
+                <a
+                  href="https://www.github.com/Herman-Riah19"
+                  class="instagram"
+                >
+                  <TextGradient><i class="bx bxl-github" /></TextGradient>
+                </a>
+                <a
+                  href="https://www.github.com/Herman-Riah19"
+                  class="instagram"
+                >
+                  <TextGradient
+                    ><i
+                      class="bi bi-envelope"
+                    />hermanrazafinbdranaivo@gmail.com</TextGradient
                   >
-                    <TextGradient><i class="bx bxl-facebook" /></TextGradient>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/riah.hermann"
-                    class="instagram"
-                  >
-                    <TextGradient><i class="bx bxl-instagram" /></TextGradient>
-                  </a>
-                  <a href="https://www.linkedin.com/in/hermann-razafindranaivo-174378237/" class="instagram">
-                    <TextGradient><i class="bx bxl-linkedin" /></TextGradient>
-                  </a>
-                  <a
-                    href="https://www.github.com/Herman-Riah19"
-                    class="instagram"
-                  >
-                    <TextGradient><i class="bx bxl-github" /></TextGradient>
-                  </a>
-                  <a
-                    href="https://www.github.com/Herman-Riah19"
-                    class="instagram"
-                  >
-                  <TextGradient><i class="bi bi-envelope" />hermanrazafinbdranaivo@gmail.com</TextGradient>
-                  </a>
-                </div>
+                </a>
               </div>
             </div>
-          </Row>
+          </div>
+        </Row>
       </div>
-          
     </div>
   </div>
 </section>
