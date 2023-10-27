@@ -6,6 +6,8 @@
   import SectionTitle from "../typography/SectionTitle.svelte";
   import { onMount } from "svelte";
   import anime from "animejs";
+  import Row from "../grid/Row.svelte";
+  import Container from "./Container.svelte";
 
   let gradientCard: any, titleAnimate: any;
 
@@ -61,13 +63,46 @@
           <img class="profile-img" src={Profile} alt="..." />
           <Dots />
         </div>
+        <Container>
+          <Row>
+            <div class="contact">
+              <div class="contact-about">
+                <div class="social-links">
+                  <a
+                    href="https://www.facebook.com/riah.hermann/"
+                    class="facebook"
+                  >
+                    <TextGradient><i class="bx bxl-facebook" /></TextGradient>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/riah.hermann"
+                    class="instagram"
+                  >
+                    <TextGradient><i class="bx bxl-instagram" /></TextGradient>
+                  </a>
+                  <a href="https://www.linkedin.com/in/hermann-razafindranaivo-174378237/" class="instagram">
+                    <TextGradient><i class="bx bxl-linkedin" /></TextGradient>
+                  </a>
+                  <a
+                    href="https://www.github.com/Herman-Riah19"
+                    class="instagram"
+                  >
+                    <TextGradient><i class="bx bxl-github" /></TextGradient>
+                  </a>
+                  <TextGradient><i class="bi bi-envelope" />hermanrazafinbdranaivo@gmail.com</TextGradient>
+                  
+                </div>
+              </div>
+            </div>
+          </Row>
+        </Container>
       </div>
     </div>
   </div>
 </section>
 
 <style lang="scss">
-  #home{
+  #home {
     padding-top: 100px;
   }
 </style>

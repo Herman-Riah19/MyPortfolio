@@ -7,7 +7,7 @@ export let technologie = {}
 
 <div class="col-lg-2 col-md-4 col-sm-8 col-xs-12">
     <div class="card">
-        <img class="img-fluid" src={technologie.icon} alt={technologie.name} height="100"/>
+        <img class="img-fluid" src={technologie.icon} alt={technologie.name} width="100" height="50"/>
         <div class="card-body text-center">
             <strong>
                 <TextGradient>{technologie.name}</TextGradient>

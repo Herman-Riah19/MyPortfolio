@@ -1,10 +1,7 @@
 <script lang="ts">
   import Profile from "../../assets/image/profile-remove.png";
-  import Row from "../grid/Row.svelte";
   import SectionTitle from "../typography/SectionTitle.svelte";
-  import TextGradient from "../typography/TextGradient.svelte";
   import TextMuted from "../typography/TextMuted.svelte";
-  import Container from "./Container.svelte";
 </script>
 
 <div class="container">
@@ -35,37 +32,6 @@
           development of several web application projects for various companies,
           individuals person and also my own personnal project.
         </TextMuted>
-        <Container>
-          <Row>
-            <div class="contact">
-              <div class="contact-about">
-                <div class="social-links">
-                  <a
-                    href="https://www.facebook.com/riah.hermann/"
-                    class="facebook"
-                  >
-                    <TextGradient><i class="bx bxl-facebook" /></TextGradient>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/riah.hermann"
-                    class="instagram"
-                  >
-                    <TextGradient><i class="bx bxl-instagram" /></TextGradient>
-                  </a>
-                  <a href="https://www.linkedin.com/" class="instagram">
-                    <TextGradient><i class="bx bxl-linkedin" /></TextGradient>
-                  </a>
-                  <a
-                    href="https://www.github.com/Herman-Riah19"
-                    class="instagram"
-                  >
-                    <TextGradient><i class="bx bxl-github" /></TextGradient>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </Row>
-        </Container>
       </div>
     </div>
   </div>
