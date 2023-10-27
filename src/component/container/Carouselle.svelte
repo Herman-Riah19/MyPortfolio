@@ -51,7 +51,7 @@
         </h1>
       </div>
     </div>
-    <div class="col-xxl-7">
+    <div class="col-xxl-7 justify-content-center">
       <!-- Header profile picture-->
       <div class="d-flex justify-content-center mt-xxl-0">
         <div
