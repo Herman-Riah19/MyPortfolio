@@ -93,16 +93,11 @@
                 >
                   <TextGradient><i class="bx bxl-github" /></TextGradient>
                 </a>
-                <a
-                  href="https://www.github.com/Herman-Riah19"
-                  class="instagram"
-                >
                   <TextGradient
                     ><i
                       class="bi bi-envelope"
                     />hermanrazafinbdranaivo@gmail.com</TextGradient
                   >
-                </a>
               </div>
             </div>
           </div>
