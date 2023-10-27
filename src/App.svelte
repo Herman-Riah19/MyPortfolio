@@ -16,7 +16,7 @@
   import Footer from "./component/Footer.svelte";
 </script>
 
-<div >
+<div>
   <Navbar />
   <main role="main" class="main">
     <Carouselle />
@@ -24,12 +24,12 @@
       <About />
       <Information />
       <Services />
+      <Projects />
       <ShadowContainer>
         <Resume />
       </ShadowContainer>
-      <Projects />
 
-      <Container>
+      <Container id="technologies">
         <SectionTitle>Technologies</SectionTitle>
         <Framework />
       </Container>

@@ -24,7 +24,7 @@ export const TechnologieModel: Array<Model> = [
     {
         id: 1,
         name: "React",
-        language: "JavaScript/TypeScript",
+        language: "TypeScript",
         type: "Framework Front-End",
         icon:`${React}`,
         experience: "2 ans"
@@ -32,7 +32,7 @@ export const TechnologieModel: Array<Model> = [
     {
         id: 2,
         name: "Nextjs",
-        language: "JavaScript/TypeScript",
+        language: "TypeScript",
         type: "Framework Rendering",
         icon:`${Nextjs}`,
         experience: "1 ans"
@@ -40,7 +40,7 @@ export const TechnologieModel: Array<Model> = [
     {
         id: 3,
         name: "Svelte",
-        language: "JavaScript/TypeScript",
+        language: "TypeScript",
         type: "Framework Front-End",
         icon:`${Svelte}`,
         experience: "1 ans"

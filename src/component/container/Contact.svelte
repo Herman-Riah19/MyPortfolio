@@ -6,51 +6,57 @@
 </script>
 
 <section id="contact" class="contact">
-    <SectionTitle>Contacts</SectionTitle>
-    <Row>
-      <div class="col-lg-12 d-flex align-items-stretch">
-        <div class="info">
-          <div class="d-flex align-items-center mb-4">
-            <div
-              class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
-            >
-              <i class="bi bi-geo-alt" />
-            </div>
-            <div class="d-inline">
-              <TextGradient>Location:</TextGradient>
-              <TextMuted>
-                Lot IB 86 Antanambao Imeritsiatosika<br />
-                Antananarivo, 112
-              </TextMuted>
-            </div>
-          </div>
-
-          <div class="d-flex align-items-center mb-4">
-            <div
-              class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
-            >
-              <i class="bi bi-envelope" />
-            </div>
-            <div class="d-inline">
-              <TextGradient>Email:</TextGradient>
-              <TextMuted>hermanrazafinbdranaivo@gmail.com</TextMuted>
+  <SectionTitle>Contacts</SectionTitle>
+  <Row>
+    <div class="col-lg-12 d-flex align-items-stretch">
+      <div class="info">
+        <Row>
+          <div class="col-xs-12 col-sm-8 col-md-6 ">
+            <div class="d-flex align-items-center mb-4">
+              <div
+                class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
+              >
+                <i class="bi bi-geo-alt" />
+              </div>
+              <div class="d-inline">
+                <TextGradient>Location:</TextGradient>
+                <TextMuted>
+                  Lot IB 86 Antanambao Imeritsiatosika<br />
+                  Antananarivo, 112
+                </TextMuted>
+              </div>
             </div>
           </div>
-
-          <div class="d-flex align-items-center mb-4">
-            <div
-              class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
-            >
-              <i class="bi bi-phone" />
-            </div>
-            <div class="d-inline">
-              <TextGradient>Call:</TextGradient>
-              <TextMuted>+261338022616</TextMuted>
+          <div class="col-xs-12 col-sm-8 col-md-6 ">
+            <div class="d-flex align-items-center mb-4">
+              <div
+                class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
+              >
+                <i class="bi bi-envelope" />
+              </div>
+              <div class="d-inline">
+                <TextGradient>Email:</TextGradient>
+                <TextMuted>hermanrazafinbdranaivo@gmail.com</TextMuted>
+              </div>
             </div>
           </div>
-        </div>
+          <div class="col-xs-12 col-sm-8 col-md-6 ">
+            <div class="d-flex align-items-center mb-4">
+              <div
+                class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
+              >
+                <i class="bi bi-phone" />
+              </div>
+              <div class="d-inline">
+                <TextGradient>Call:</TextGradient>
+                <TextMuted>+261338022616</TextMuted>
+              </div>
+            </div>
+            </div>
+        </Row>
       </div>
-    </Row>
+    </div>
+  </Row>
 </section>
 
 <style lang="scss">

@@ -24,6 +24,6 @@
 
 <style>
   #about {
-    padding-top: 85px;
+    padding-top: 50px;
   }
 </style>

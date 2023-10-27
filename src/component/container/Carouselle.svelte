@@ -49,6 +49,7 @@
         <h1 class="display-3 fw-bolder mb-1">
           <TextGradient>RAZAFINDRANAIVO</TextGradient>
         </h1>
+        <TextGradient>hermanrazafinbdranaivo@gmail.com</TextGradient>
       </div>
     </div>
     <div class="col-xxl-7">
@@ -92,12 +93,7 @@
                   class="instagram"
                 >
                   <TextGradient><i class="bx bxl-github" /></TextGradient>
-                </a>
-                  <TextGradient
-                    ><i
-                      class="bi bi-envelope"
-                    />hermanrazafinbdranaivo@gmail.com</TextGradient
-                  >
+                </a>                
               </div>
             </div>
           </div>
@@ -112,7 +108,7 @@
     padding-top: 100px;
   }
   .contact .social-links {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 
   .contact .social-links a {
