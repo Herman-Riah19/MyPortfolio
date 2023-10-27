@@ -51,7 +51,7 @@
         </h1>
       </div>
     </div>
-    <div class="col-xxl-7 justify-content-center">
+    <div class="col-xxl-7 ">
       <!-- Header profile picture-->
       <div class="d-flex justify-content-center mt-xxl-0">
         <div
@@ -63,10 +63,8 @@
           <img class="profile-img" src={Profile} alt="..." />
           <Dots />
         </div>
-        
-      </div>
-          <Row>
-            <div class="contact">
+        <Row>
+            <div class="contact" bind:this={gradientCard}>
               <div class="contact-about">
                 <div class="social-links">
                   <a
@@ -96,6 +94,8 @@
               </div>
             </div>
           </Row>
+      </div>
+          
     </div>
   </div>
 </section>
