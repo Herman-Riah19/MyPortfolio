@@ -14,6 +14,28 @@
   import Contact from "./component/container/Contact.svelte";
   import Navbar from "./component/header/Navbar.svelte";
   import Footer from "./component/Footer.svelte";
+  import { onMount } from "svelte";
+  import anime from "animejs";
+
+  let gradientCard: any, titleAnimate: any;
+
+  const animation = (targets: any) => ({
+    targets,
+    translateX: [-1000, 1],
+    direction: "alternate",
+  });
+
+  const setup = () => {
+    anime
+      .timeline({
+        easing: "easeInSine",
+        autoplay: true,
+        duration: 1000,
+      })
+      .add(animation(gradientCard));
+  };
+
+  onMount(setup);
 </script>
 
 <div>

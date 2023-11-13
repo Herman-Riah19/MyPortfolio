@@ -17,7 +17,7 @@ export let model: ResumeModel = {}
           <div class="small text-muted">{model.city}</div>
         </div>
       </div>
-      <div class="col-lg-8">
+      <div class="col-sm-12 col-lg-8">
         <div>
           {@html model.description}
         </div>
