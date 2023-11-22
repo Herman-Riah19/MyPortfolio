@@ -49,7 +49,7 @@
         <h1 class="display-3 fw-bolder mb-1">
           <TextGradient>RAZAFINDRANAIVO</TextGradient>
         </h1>
-        <TextGradient>hermanrazafinbdranaivo@gmail.com</TextGradient>
+        <TextGradient>hermannchristianr@gmail.com</TextGradient>
       </div>
     </div>
     <div class="col-xxl-7">

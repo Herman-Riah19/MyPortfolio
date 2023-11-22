@@ -36,7 +36,7 @@
               </div>
               <div class="d-inline">
                 <TextGradient>Email:</TextGradient>
-                <TextMuted>hermanrazafinbdranaivo@gmail.com</TextMuted>
+                <TextMuted>hermannchristianr@gmail.com</TextMuted>
               </div>
             </div>
           </div>

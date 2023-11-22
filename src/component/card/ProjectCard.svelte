@@ -4,7 +4,7 @@ import Badge from "../tools/Badge.svelte";
 
     export let project = {}
 </script>
-    <div class="card">
+    <div class="card mt-5">
         <div class="img-box">
             <img src={project.img} alt="Herman" srcset="">
         </div>
