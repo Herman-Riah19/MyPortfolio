@@ -7,7 +7,8 @@
   import { onMount } from "svelte";
   import anime from "animejs";
   import Row from "../grid/Row.svelte";
-  import Container from "./Container.svelte";
+  import Column from "../grid/Column.svelte";
+  import Information from "./Information.svelte";
 
   let gradientCard: any, titleAnimate: any;
 
@@ -38,7 +39,7 @@
   onMount(setup);
 </script>
 
-<section id="home">
+<section id="home" class="container">
   <div class="row gx-5 align-items-center">
     <div class="col-xxl-5">
       <!-- Header text content-->
@@ -52,54 +53,60 @@
         <TextGradient>hermannchristianr@gmail.com</TextGradient>
       </div>
     </div>
-    <div class="col-xxl-7">
       <!-- Header profile picture-->
-      <div class="d-flex justify-content-center mt-xxl-0">
-        <div
-          class="profile bg-gradient-primary-to-secondary"
-          bind:this={gradientCard}
-        >
-          <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-          <!-- Watch a tutorial on how to do this on YouTube (link)-->
-          <img class="profile-img" src={Profile} alt="..." />
-          <Dots />
-        </div>
-      </div>
-      <div class="d-flex justify-content-center mt-xxl-0">
-        <Row>
-          <div class="contact" bind:this={gradientCard}>
-            <div class="contact-about">
-              <div class="social-links">
-                <a
-                  href="https://www.facebook.com/riah.hermann/"
-                  class="facebook"
-                >
-                  <TextGradient><i class="bx bxl-facebook" /></TextGradient>
-                </a>
-                <a
-                  href="https://www.instagram.com/riah.hermann"
-                  class="instagram"
-                >
-                  <TextGradient><i class="bx bxl-instagram" /></TextGradient>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/hermann-razafindranaivo-174378237/"
-                  class="instagram"
-                >
-                  <TextGradient><i class="bx bxl-linkedin" /></TextGradient>
-                </a>
-                <a
-                  href="https://www.github.com/Herman-Riah19"
-                  class="instagram"
-                >
-                  <TextGradient><i class="bx bxl-github" /></TextGradient>
-                </a>                
-              </div>
+      <Row>
+        <div class="col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start">
+          <div class="d-flex justify-content-center mt-xxl-0">
+            <div
+              class="profile bg-gradient-primary-to-secondary"
+              bind:this={gradientCard}
+            >
+              <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
+              <!-- Watch a tutorial on how to do this on YouTube (link)-->
+              <img class="profile-img" src={Profile} alt="..." />
+              <Dots />
             </div>
           </div>
-        </Row>
-      </div>
-    </div>
+        </div>
+        <div class="col-xl-7 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
+          <Information />
+        </div>
+        <div class="d-flex justify-content-center mt-xxl-0">
+            <Row>
+              <div class="contact" bind:this={gradientCard}>
+                <div class="contact-about">
+                  <div class="social-links">
+                    <a
+                      href="https://www.facebook.com/riah.hermann/"
+                      class="facebook"
+                    >
+                      <TextGradient><i class="bx bxl-facebook" /></TextGradient>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/riah.hermann"
+                      class="instagram"
+                    >
+                      <TextGradient><i class="bx bxl-instagram" /></TextGradient
+                      >
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/hermann-razafindranaivo-174378237/"
+                      class="instagram"
+                    >
+                      <TextGradient><i class="bx bxl-linkedin" /></TextGradient>
+                    </a>
+                    <a
+                      href="https://www.github.com/Herman-Riah19"
+                      class="instagram"
+                    >
+                      <TextGradient><i class="bx bxl-github" /></TextGradient>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Row>
+          </div>
+      </Row>
   </div>
 </section>
 

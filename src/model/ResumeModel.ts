@@ -49,21 +49,21 @@ const experience: Array<ResumeModel> = [
         date: "August - October 2023",
         institute: "Quantium",
         city:"Faravohitra, Antananarivo",
-        description: "During this time, I have coded a script for web scrapingd, create a simple data model for an Artificial Inteligences of one society for here visibility, analyse the liste of the more than email and detect them if he is validate, and participate in creation of the landing page of the entreprise using ReactJS when role is to inject the email message in the site."   
+        description: "I have coded ,with my experience in Python,a script for web scrapingd, create a simple data model for an Artificial Inteligences of one society for here visibility, analyse the liste of the more than email and detect them if he is validate, and participate in creation of the landing page of the entreprise using ReactJS when role is to inject the email message in the site."   
     },
     {
         title: "Developper fullstack",
         date: "Juillet 2023",
         institute: "Fpay",
         city:"Andohalo, Antananarivo",
-        description: "Develop an application called Jupiter for money transfer using mobile money, purchase of internet packages and call credit from an operator in Madagascar and also from abroad in the Indian Ocean, he can also purchase a subscription to Canal+/Blueline bouquets and pay water and electricity bills via mobile money."   
+        description: "Using my experience in Developper FullStack in TypeScript(ExpressJS, ReactJS, Firebase) and Python(Flask), I participate to Develop an application called Jupiter for money transfer using mobile money, purchase of internet packages and call credit from an operator in Madagascar and also from abroad in the Indian Ocean, he can also purchase a subscription to Canal+/Blueline bouquets and pay water and electricity bills via mobile money."   
     },
     {
         title: "Freelance developper",
         date: "2021-2023",
         institute: "Freelance",
         city: "Andravoahangy, Antananarivo",
-        description: "React integrator of several particular projects: <ul> <li>Dashord for NFT video game</li><li>Portfolio of a public personality</li> <li>Personnal portfolio in Reactjs and bootstrap</li> <li>Design of a showcase site with Wordpress of a musician for his international visibility</li><li>Development of an E-Commerce for a fashion agency with MySQL, Angular, Express and NodeJS</li> </ul>"
+        description: "Using My skill in Developper FullStack Nodejs (Reactjs, AdonisJS, Nextjs) integrator of several particular projects: <ul> <li>Dashord for NFT video game</li><li>Portfolio of a public personality</li> <li>Personnal portfolio in Reactjs and bootstrap</li> <li>Design of a showcase site with Wordpress of a musician for his international visibility</li><li>Development of an E-Commerce for a fashion agency with MySQL, Angular, Express and NodeJS</li> </ul>"
     },
     {
         title: "Computer network administration and web development",
