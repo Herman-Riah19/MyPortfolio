@@ -22,7 +22,6 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
           <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
           <li class="nav-item">
             <a href="#service" class="nav-link">Services</a>
           </li>

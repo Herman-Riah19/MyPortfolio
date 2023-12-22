@@ -22,5 +22,6 @@
 <style lang="scss">
   #projects{
     padding-top: 100px;
+    padding-bottom: 100px;
   }
 </style>
