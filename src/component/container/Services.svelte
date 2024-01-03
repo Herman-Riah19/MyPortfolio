@@ -5,7 +5,6 @@
   import ShadowContainer from "./ShadowContainer.svelte";
   import { ServiceModel } from "../../model/ServiceModel";
   import ServiceCard from "../card/ServiceCard.svelte";
-  import TextGradient from "../typography/TextGradient.svelte";
 </script>
 
 <section id="service">

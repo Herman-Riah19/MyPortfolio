@@ -5,9 +5,12 @@ import TextMuted from "../typography/TextMuted.svelte";
 export let technologie = {}
 </script>
 
-<div class="col-lg-2 col-md-4 col-sm-8 col-xs-12">
-    <div class="card">
-        <img class="img-fluid" src={technologie.icon} alt={technologie.name} width="100" height="50"/>
+<div class="col-lg-2 col-md-4 col-sm-8 col-xs-12 mt-5">
+    <div class="card justify-content-center text-center">
+        <div class="justify-content-center">
+            <img class="img-fluid" src={technologie.icon} alt={technologie.name} width="100" height="50"/>
+        </div>
+        
         <div class="card-body text-center">
             <strong>
                 <TextGradient>{technologie.name}</TextGradient>
@@ -18,7 +21,7 @@ export let technologie = {}
 </div>
 
 <style lang="scss">
-    .card {
-        border: none;
+    .card{
+        height: 150px;
     }
 </style>
