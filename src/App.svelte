@@ -38,7 +38,9 @@
   <Navbar />
   <main role="main" class="main">
     <Carouselle/>
-      
+     <Container>
+      <Contact />
+     </Container> 
     <Container>
       <Services />
       <Projects />
@@ -50,7 +52,7 @@
         <SectionTitle>Technologies</SectionTitle>
         <Framework />
       </Container>
-      <Contact />
+      
     </Container>
   </main>
   <Footer />

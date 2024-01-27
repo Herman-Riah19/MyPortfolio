@@ -21,7 +21,10 @@
       >
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#home" class="nav-link">Acceuil</a></li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
           <li class="nav-item">
             <a href="#service" class="nav-link">Services</a>
           </li>
@@ -29,13 +32,10 @@
             <a href="#projects" class="nav-link">Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#resumes" class="nav-link">Resumes</a>
+            <a href="#resumes" class="nav-link">Résumés</a>
           </li>
           <li class="nav-item">
             <a href="#technologies" class="nav-link">Technologies</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
       </div>

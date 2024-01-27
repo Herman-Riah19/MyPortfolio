@@ -15,10 +15,10 @@ export let model: ResumeModel = {}
           <div class="row">
             <div class="col-sm-8">
               <h4 class="text-uppercase">
-                <TextGradient>{model.institute}</TextGradient>
+                <TextGradient>{model.title}</TextGradient>
               </h4>
 
-              <div class="small fw-bolder">{model.title}</div>
+              <div class="small fw-bolder">{model.institute}</div>
 
               <TextMuted>{model.city}</TextMuted>
             </div>
@@ -26,11 +26,6 @@ export let model: ResumeModel = {}
               <Badge>{model.date}</Badge>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-12">
-        <div class="text-justify">
-          {@html model.description}
         </div>
       </div>
     </div>

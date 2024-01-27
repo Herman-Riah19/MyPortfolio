@@ -6,22 +6,17 @@
 
 <ShadowContainer>
   <div class="content d-flex flex-column justify-content-center">
-    <SectionTitle>Information about me</SectionTitle>
-    <h3>Hermann Christian RAZAFINDRANAIVO</h3>
-    <TextMuted>
-      I'm a fullstack developer for 4 years and specialized in the development
-      of dynamic applications such as web applications for data management,
-      digital solutions for problems in a business, decentralized applications
-      using of the blockchains and smart contracts of cryptomoneys and analysis
-      Datas with the Artificial Intelligence's integration, all them
-      representing by a beautifull and interactive application with a modern and
-      eleguante design
-    </TextMuted>
-    <TextMuted>
-      After obtaining my Professional Degree in Computer Science, Electronics
-      and Telecommunications, I participated in the design and development of
-      several web application projects for various companies, individuals person
-      and also my own personnal project.
+    <SectionTitle>À propos</SectionTitle>
+    <TextMuted> 
+      Je suis un développeur Full Stack avec une expertise approfondie en 
+      Python, TypeScript, ReactJS, Adonis JS et Flask. J'ai déjà travaillé dans la création de divers applicatons web
+      tel que les applications de gestion des entreprises, des sites e-commerce, des applications de crowdfunding
+      en utilisant les moyens de payement traditionnelles avec les cartes bancaires ou des applications de paiements tiers
+      et aussi en utilisant des Cryptomoneys, l'intégration des applicatoins décentralisés telle que les applications de 
+      minages NFT, les SaaS décentralisés. Je dispose aussi des expériences sur les scriptings comme le web scraping, 
+      génération des Leads, la création des robots faux visiteurs et même des Intelligences Artificielles
+      pour de prediction et spécification des API ChatGPT. Je privilégie la résolution des problèmes complexes en offrant 
+      des solutions innovantes et modernes en s’appuyant sur l’utilisation des outils modernes et révolutionnaires. 
     </TextMuted>
   </div>
 </ShadowContainer>

@@ -11,110 +11,276 @@ import SqliteIcon from "../assets/icon/sqlite.svg"
 import MysqlIcon from "../assets/icon/mysql.svg"
 import Archlinux from "../assets/icon/archlinux.svg"
 
+import Typescript from "../assets/icon/file-type-typescript-official.svg"
+import Python from "../assets/icon/python.svg"
+import JavaScript from "../assets/icon/javascript.png";
+import Firebase from "../assets/icon/firebase.svg";
+
+import Vite from "../assets/icon/vitejs.svg";
+import Webpack from "../assets/icon/webpack.svg";
+import Apache from "../assets/icon/apache.svg";
+import Git from "../assets/icon/git.svg";
+import Github from "../assets/icon/github.svg";
+import Inertia from "../assets/icon/inertia.svg";
+import Joplin from "../assets/icon/joplin.svg";
+import Photoshop from "../assets/icon/photoshop.svg";
+import Figma from "../assets/icon/figma.svg";
+import Premier from "../assets/icon/adobe-premiere.svg";
+import VsCode from "../assets/icon/vscode-dark.svg";
+import MaterialUI from "../assets/icon/materialui.svg";
+
+
 export interface Model{
     id: number;
     name: string;
     language: string;
     type: string;
     icon: string;
-    experience: string;
+    star: number;
 }
 
-export const TechnologieModel: Array<Model> = [
+export interface Language {
+    id: number;
+    name: string;
+    icon: string;
+    star: number;
+}
+
+export const LanguagesModel: Array<Language> = [
     {
-        id: 1,
-        name: "React",
-        language: "TypeScript",
-        type: "Framework Front-End",
-        icon:`${React}`,
-        experience: "2 ans"
+        id:1,
+        name: "TypeScript",
+        icon: `${Typescript}`,
+        star: 4
     },
     {
-        id: 2,
-        name: "Nextjs",
-        language: "TypeScript",
-        type: "Framework Rendering",
-        icon:`${Nextjs}`,
-        experience: "1 ans"
+        id:2,
+        name: "Python",
+        icon: `${Python}`,
+        star: 3.5
     },
     {
-        id: 3,
-        name: "Svelte",
-        language: "TypeScript",
-        type: "Framework Front-End",
-        icon:`${Svelte}`,
-        experience: "1 ans"
-    },
-    {
-        id: 4,
-        name: "Angular",
-        language: "TypeScript",
-        type: "Framework Front-End",
-        icon:`${Angular}`,
-        experience: "1 ans"
-    },    
-    {
-        id: 5,
-        name: "Nodejs",
-        language: "TypeScript",
-        type: "Framework Back-End",
-        icon:`${Node}`,
-        experience: "3 ans"
-    },
-    {
-        id: 6,
-        name: "Adonisjs",
-        language: "TypeScript",
-        type: "Framework Back-End",
-        icon:`${Adonisjs}`,
-        experience: "1 ans"
-    },
-    {
-        id: 7,
-        name: "Flask",
-        language: "Python",
-        type: "Framework Back-End",
-        icon:`${Flask}`,
-        experience: "1 ans"
-    },
-    {
-        id: 8,
-        name: "Prisma",
-        language: "Prisma et Typescript",
-        type: "Modelisation",
-        icon:`${PrismaIcon}`,
-        experience: "2 ans"
-    },
-    {
-        id: 9,
-        name: "MongoDB",
-        language: "Json",
-        type: "Systeme de Gestion de Base de donne",
-        icon:`${MongodbIcon}`,
-        experience: "2 ans"
-    },
-    {
-        id: 10,
-        name: "MySQL",
-        language: "SQL",
-        type: "Systeme de Gestion de Base de donne",
-        icon:`${MysqlIcon}`,
-        experience: "3 ans"
-    },
-    {
-        id: 11,
-        name: "SQLite",
-        language: "SQL",
-        type: "Systeme de Gestion de Base de donne",
-        icon:`${SqliteIcon}`,
-        experience: "2 ans"
-    },
-    {
-        id: 12,
-        name: "Archlinux",
-        language: "GNU/Linux",
-        type: "Systemde d'Exploitation",
-        icon:`${Archlinux}`,
-        experience: "2 ans"
-    },
+        id:3,
+        name: "JavaScript",
+        icon: `${JavaScript}`,
+        star: 4
+    }
 ]
+
+export const Database: Array<Model> = [
+  {
+    id: 1,
+    name: "Firebase",
+    language: "Json",
+    type: "Systeme de Gestion de Base de donne",
+    icon: `${Firebase}`,
+    star: 3,
+  },
+  {
+    id: 2,
+    name: "MySQL",
+    language: "SQL",
+    type: "Systeme de Gestion de Base de donne",
+    icon: `${MysqlIcon}`,
+    star: 4,
+  },
+  {
+    id: 3,
+    name: "SQLite",
+    language: "SQL",
+    type: "Systeme de Gestion de Base de donne",
+    icon: `${SqliteIcon}`,
+    star: 5,
+  },
+  {
+    id: 4,
+    name: "Prisma",
+    language: "Prisma",
+    type: "Modelisation",
+    icon: `${PrismaIcon}`,
+    star: 4,
+  },
+  {
+    id: 5,
+    name: "MongoDB",
+    language: "Json",
+    type: "Systeme de Gestion de Base de donne",
+    icon: `${MongodbIcon}`,
+    star: 2,
+  },
+];
+
+export const Tools: Array<Model> = [
+  {
+    id: 1,
+    name: "Node",
+    language: "Compilateur",
+    type: "Systemde d'Exploitation",
+    icon: `${Node}`,
+    star: 3,
+  },
+  {
+    id: 2,
+    name: "Vite JS",
+    language: "Builder",
+    type: "Systemde d'Exploitation",
+    icon: `${Vite}`,
+    star: 4,
+  },
+  {
+    id: 3,
+    name: "Webpack",
+    language: "Builder",
+    type: "Systemde d'Exploitation",
+    icon: `${Webpack}`,
+    star: 3,
+  },
+  {
+    id: 4,
+    name: "Git",
+    language: "Versionning",
+    type: "Systemde d'Exploitation",
+    icon: `${Git}`,
+    star: 3,
+  },
+  {
+    id: 5,
+    name: "Github",
+    language: "Versionning",
+    type: "Systemde d'Exploitation",
+    icon: `${Github}`,
+    star: 4,
+  },
+  {
+    id: 6,
+    name: "Inertia",
+    language: "Adapter",
+    type: "Systemde d'Exploitation",
+    icon: `${Inertia}`,
+    star: 3,
+  },
+  {
+    id: 7,
+    name: "Vs Code",
+    language: "Editeur Code",
+    type: "Systemde d'Exploitation",
+    icon: `${VsCode}`,
+    star: 4,
+  },
+  {
+    id: 8,
+    name: "Figma",
+    language: "Design UI/UX",
+    type: "Systemde d'Exploitation",
+    icon: `${Figma}`,
+    star: 3,
+  },
+  {
+    id: 9,
+    name: "Photoshop",
+    language: "Photo Editeur",
+    type: "Systemde d'Exploitation",
+    icon: `${Photoshop}`,
+    star: 4,
+  },
+  {
+    id: 10,
+    name: "Premier",
+    language: "Editeur Vidéo",
+    type: "Systemde d'Exploitation",
+    icon: `${Premier}`,
+    star: 2,
+  },
+  {
+    id: 11,
+    name: "Apache",
+    language: "Serveur",
+    type: "Systemde d'Exploitation",
+    icon: `${Apache}`,
+    star: 3,
+  },
+  {
+    id: 12,
+    name: "Material UI",
+    language: "UI Kit",
+    type: "Systemde d'Exploitation",
+    icon: `${MaterialUI}`,
+    star: 4,
+  },
+  {
+    id: 13,
+    name: "Joplin",
+    language: "Markdown",
+    type: "Systemde d'Exploitation",
+    icon: `${Joplin}`,
+    star: 4,
+  },
+  {
+    id: 14,
+    name: "Archlinux",
+    language: "Systeme d'Exploitation",
+    type: "Systemde d'Exploitation",
+    icon: `${Archlinux}`,
+    star: 2,
+  },
+];
+
+
+export const TechnologieModel: Array<Model> = [
+  {
+    id: 1,
+    name: "Flask",
+    language: "Python",
+    type: "Framework Back-End",
+    icon: `${Flask}`,
+    star: 3,
+  },
+  {
+    id: 2,
+    name: "React",
+    language: "TypeScript",
+    type: "Framework Front-End",
+    icon: `${React}`,
+    star: 4,
+  },
+  {
+    id: 3,
+    name: "Nextjs",
+    language: "TypeScript",
+    type: "Framework Rendering",
+    icon: `${Nextjs}`,
+    star: 4,
+  },
+  {
+    id: 4,
+    name: "Svelte",
+    language: "TypeScript",
+    type: "Framework Front-End",
+    icon: `${Svelte}`,
+    star: 2,
+  },
+  {
+    id: 5,
+    name: "Angular",
+    language: "TypeScript",
+    type: "Framework Front-End",
+    icon: `${Angular}`,
+    star: 3,
+  },
+  {
+    id: 6,
+    name: "Express",
+    language: "TypeScript",
+    type: "Framework Back-End",
+    icon: `${Node}`,
+    star: 3.5,
+  },
+  {
+    id: 7,
+    name: "Adonisjs",
+    language: "TypeScript",
+    type: "Framework Back-End",
+    icon: `${Adonisjs}`,
+    star: 3.5,
+  },
+];

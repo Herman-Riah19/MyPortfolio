@@ -44,8 +44,8 @@
     <div class="col-xxl-5">
       <!-- Header text content-->
       <div class="text-center text-xxl-start" bind:this={titleAnimate}>
-        <Badge>Designer &middot; Web Developer &middot; Data Analyses</Badge>
-        <div class="fs-3 fw-light text-muted">Hi! My name is</div>
+        <Badge>Designer UI/UX &middot;  Développeur Web &middot; Data Analyst</Badge>
+        <div class="fs-3 fw-light text-muted">Bonjour! Je m'appelle</div>
         <SectionTitle>Hermann Christian</SectionTitle>
         <h1 class="display-3 fw-bolder mb-1">
           <TextGradient>RAZAFINDRANAIVO</TextGradient>

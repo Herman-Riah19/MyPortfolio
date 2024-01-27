@@ -4,12 +4,12 @@
   import Container from "./container/Container.svelte";
   import ResumeItem from "./container/ResumeItem.svelte";
   import ResumeCard from "./card/ResumeCard.svelte";
+  import StudyCard from "./card/StudyCard.svelte";
   import { diplome, experience, formation } from "../model/ResumeModel";
 </script>
 
 <section id="resumes" class="resume">
-  <Container>
-    <SectionTitle>Resumes</SectionTitle>
+    <SectionTitle>Résumés</SectionTitle>
 
     <Container>
       <div class="d-flex align-items-center mb-4">
@@ -19,56 +19,28 @@
           <i class="bi bi-tools" />
         </div>
         <h3 class="fw-bolder mb-0">
-          <TextGradient>Professional Experience</TextGradient>
+          <TextGradient>Expériences Professionnelles </TextGradient>
         </h3>
       </div>
       {#each experience as item}
         <ResumeCard model={item} />
       {/each}
     </Container>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="d-flex align-items-center mb-4">
-          <div
-            class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
-          >
-            <i class="bx bx-book-content" />
-          </div>
-          <h3 class="fw-bolder mb-0">
-            <TextGradient>Education</TextGradient>
-          </h3>
+    <Container>
+      <div class="d-flex align-items-center mb-4">
+        <div
+          class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
+        >
+          <i class="bi bi-book" />
         </div>
-        {#each diplome as item}
-          <ResumeItem
-            title={item.title}
-            date={item.date}
-            institute={item.institute}
-            description={item.description}
-          />
-        {/each}
+        <h3 class="fw-bolder mb-0">
+          <TextGradient>Etudes </TextGradient>
+        </h3>
       </div>
-      <div class="col-lg-6">
-        <div class="d-flex align-items-center mb-4">
-          <div
-            class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
-          >
-            <i class="bi bi-journal-richtext" />
-          </div>
-          <h3 class="fw-bolder mb-0">
-            <TextGradient>Formations Professionelles</TextGradient>
-          </h3>
-        </div>
-        {#each formation as item}
-          <ResumeItem
-            title={item.title}
-            date={item.date}
-            institute={item.institute}
-            description={item.description}
-          />
-        {/each}
-      </div>
-    </div>
-  </Container>
+      {#each diplome as item}
+        <StudyCard model={item} />
+      {/each}
+    </Container>
 </section>
 
 <style lang="scss">
