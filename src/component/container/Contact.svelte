@@ -82,7 +82,7 @@
               <div
                 class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
               >
-                <i class="bx bxl-facebook" />
+                <i class="bx bxl-linkedin" />
               </div>
               <div class="d-inline">
                 <TextGradient>Linkedin</TextGradient>
