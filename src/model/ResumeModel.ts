@@ -45,36 +45,36 @@ const formation: Array<ResumeModel> = [
 
 const experience: Array<ResumeModel> = [
   {
-    title: "Développeur Full Stack ",
-    date: "August - October 2023",
-    institute: "Projet Personnel",
-    city: "Imeritsiatosika, Antananarivo",
-    description:
-      "Conception d'une application monolithique avec Adonis JS, ReactJS et Inertia JS. Cette application est un réseau social destiné aux dessinateurs numériques et générateurs d'images par IA, mettant en avant leur talent et leur spécialité tout en protégeant leurs droits d’auteur.<a href='https://github.com/Herman-Riah19/TryInc'>Code source</a>",
-  },
-  {
     title: "Lead Développeur Python",
-    date: "August - October 2023",
+    date: "Août 2023 - October 2023",
     institute: "Quantium",
     city: "Faravohitra, Antananarivo",
     description:
-      "En appliquant mon savoir faire en Python, j’effectue le rôle scripteur au sein de la société Quantium pour le compte de ces clients pour:" +
-      "<ul><li>Réalisation du script Python de générateurs de leads pour améliorer le référencement sur Google avec BeautifulSoup et Tor</li>" +
-      "<li>Écriture de scripts Python de web scraping pour la collecte de données de clients potentiels avec  BeautifulSoup</li>" +
-      "<li>Analyse et verification des listes d’email client obtenue afin d’envoyer un spam Publicitaire en utilisant toujours un script Python si ces emails sont encore actif ou pas</li>" +
+      "En tant que Développeur Lead en Python, je dirige une équipe de scripteur au sein de la société Quantium pour le compte de ces clients comme:" +
+      "<ul><li>Réalisation du script Python de générateurs de leads pour améliorer le référencement d’une site Suisse sur Google</li>" +
+      "<li>Écriture de scripts Python de web scraping pour la collecte de données de clients potentiels pour le même site</li>" +
+      "<li>Analyse et vérification des listes d’email client obtenue afin d’envoyer un spam Publicitaire en utilisant toujours un script Python si ces emails sont encore actif</li>" +
       "<li>Développement d'une application de SAAS pour la gestion des données dans un commerce avec Flask</li>" +
       "</ul>",
   },
   {
     title: "Développeur fullstack",
-    date: "Juillet 2023",
+    date: "Juillet 2023 - Août 2023",
     institute: "Fpay",
     city: "Andohalo, Antananarivo",
     description:
-      "Durant mon poste en tant que développeur d'application web chez FPay, j'ai contribué à la réalisation de projets en utilisant les technologies Flask pour le développement Backend et les frameworks React JS pour le développement Frontend:" +
-      "<ul><li>J’ai notamment participé à la Conception d'une application web de crowfounding utilisant Python Flask pour le back-end, ReactJS avec NodeJS pour le front-end et Firebase comme base de Donnée en intègrant les fonctionnalités de gestion de solde, d’injection des offres forfaitaire des Opérateurs mobiles des opérateurs locaux et étrangers, d’assurer aussi l’Intégration des codes USSD des opérateurs mobiles sous forme d’un API pour des transactions mobiles telle que l’achat de forfait internet, transfert d’argent grace à Mobile money, et la génération de code d’accès utilisateur lors de prémier authentification.</li>" +
-      "<li>J’ai également participé dans le reconstruction d’un application web de gestion d’agence qui était développée en Flask réécrit en NextJS pour améliorer sa performance utilisateur et aussi d’ajouter un système de payement grâce à l’integration d’un API de crowdfunding </li>" +
+      "Durant mon poste en développeur d'application web chez FPay, j'ai contribué à la réalisation des projets en utilisant les technologies Flask pour le développement Backend et les frameworks React JS pour le développement Frontend enassurant les tâches suivantes:" +
+      "<ul><li>J’ai notamment participé à la Conception d'une application web de crowdfounding [Flask, ReactJS et Firebase] en intégrant l’authentification, d’injection des offres forfaitaire des Opérateurs mobiles, d’assurer aussi l’Intégration des codes USSD des opérateurs mobiles sous forme d’un API pour des transactions mobiles telle que l’achat de forfait internet, transfert d’argent grace à Mobile money, et achat d'abonnement Canal+.</li>" +
+      "<li>J’ai également participé dans la refont d’un application web de gestion d’agence qui était développée en Flask réécrit en NextJS pour améliorer sa performance utilisateur et aussi d’ajouter un système de payement grâce à l’intégration d’un API de crowdfunding  </li>" +
       "</ul>",
+  },
+  {
+    title: "Développeur Full Stack ",
+    date: "Août 2021 - Octobre 2023",
+    institute: "Projet Personnel",
+    city: "Imeritsiatosika, Antananarivo",
+    description:
+      "Conception d'une application monolithique avec Adonis JS, ReactJS et Inertia JS. Cette application est un réseau social destiné aux dessinateurs numériques et générateurs d'images par IA, mettant en avant leur talent et leur spécialité tout en protégeant leurs droits d’auteur.<a href='https://github.com/Herman-Riah19/TryInc'>Code source</a>",
   },
   {
     title: "Intégrateur React JS",
@@ -86,20 +86,20 @@ const experience: Array<ResumeModel> = [
   },
   {
     title: "Bénévolat en Technicien informatique et multimédia",
-    date: "2021 - Juin 2023",
+    date: "Septembre 2021 - Juin 2023",
     institute: "Bureau Eglise Evangelique Shine",
     city: "Andravoahangy, Antananarivo",
     description:
-      "Durant mon post de Bénévolat au sein de bureau de l’Eglise Evangelique Shine où j’ai assuré plusieurs tâches en Technicien informatique et multimédia telle que :" +
+      "Durant 3 ans dans le post de Bénévolat au sein de bureau de l’Eglise Evangélique Shine où j’ai assuré plusieurs tâches en Technicien informatique et multimédia :" +
       "<ul><li>La Maintenance des appareils informatiques dans le site et la vérification des installations réseaux pour assurer sa fonctionnalité durant le jour du travaille</li>" +
-      "<li>Le Montage vidéo des prèche du pasteur et la conception des Jackets et Stykers pour bien représenter le support en DVD</li>" +
-      "<li>La création de supports multimédias telle que les Flyers; les Cartes de voeux et aussi la couverture de la Bible pour des événements religieux</li>" +
-      "<li>Le Développement d’un générateur de QRCode dans un invitation lors des événements religieux en utilisant AdonisJS comme framework Back end et mette en place la verification de cette QrCode s’il est valide car les informations seront enregistrées dans un base de donnée <a href='https://github.com/Herman-Riah19/QRCodeGenerate'>Source code</a></li>" +
+      "<li>Le Montage vidéo des prèches du pasteur et la conception des Jackets et Stikers pour bien représenter le support en DVD</li>" +
+      "<li>La création de supports multimédias telle que les Flyers, les Cartes de voeux et aussi la couverture de la Bible pour des événements religieux</li>" +
+      "<li>Le Développement d’un générateur de QRCode dans un invitation lors des événements religieux en utilisant AdonisJS comme framework Back end et mette en place la verification de cette QrCode s’il est valide lors de scan<a href='https://github.com/Herman-Riah19/QRCodeGenerate'>Source code</a></li>" +
       "</ul>",
   },
   {
     title: "Développeur Wordpress",
-    date: "Septembre 2021",
+    date: "Août 2021",
     institute: "Freelance",
     city: "67Ha, Antananarivo",
     description:
@@ -111,23 +111,23 @@ const experience: Array<ResumeModel> = [
     institute: "Rainbow MDG By Pass",
     city: "By Pass, Antananarivo",
     description:
-      "J’ai été contacté par un agence de distribution des vêtements pour femme pour Développer l’intégraliter d’une application web de e-commerce en utilisant TypeScript, MySQL, Angular, Express, et NodeJS afin d’améliorer leur visibilité dans l’internet et aussi de leur faire passé dans le domaine plus professionnel, en rendre compte les différentes étapes pour le Design, le Développement et le Déployement du site vers l’internet.",
+      "J’ai été contacté par un agence de distribution des vêtements pour femme pour Développer l’intégralité d’une application web de e-commerce en utilisant TypeScript, MySQL, Angular, Express, et NodeJS afin de le permettre de vendre leur produit dépuis leur propre plateforme.",
   },
   {
     title: "Stagiaire en Technicien informatique",
-    date: "2020 - 2021",
+    date: "Janvier 2020 - Novembre 2020",
     institute:
       "Ministère de l'Enseignement Technique et de la Formation Professionnelle",
     city: "Ampefiloha Antananarivo",
     description:
       "Durant mon stage au sein de Ministère de l'Enseignement Technique et de la Formation Professionnelle, dans le département de l’information ou INFor, où j’ai participé au:" +
-      "<ul><li>Développement d'une application web bibliothèque en ligne avec PHP, MySQL, Bootstrap où j’ai intégré les vidéos du Ministère en utilisant les liens qui point vers le plateforme YouTube, la mise à disposition des Publications des conténues de blog dans le site et enfin le déployement du site dépuis un serveur local avec la création de certificat SSL avec OpenSSL dans un serveur Apache</li>" +
-      "<li>Installation du Système DMZ sur le site avec PFsense et Debian pour filtrer la connexion dans le site, l’intégration de sécurité d’authentification pour que seulement les employés du site pourraient connecté vers l’internet et aussi le blocage de site telle que Facebook durant l’heure de travaille le faire active lors de l’heure de répos.</li>" +
+      "<ul><li>Développement d'une application web bibliothèque en ligne [PHP, MySQL, Bootstrap] où j’ai intégré les vidéos du Ministère en utilisant les liens qui point vers le plateforme YouTube,  et enfin le déploiement du site depuis un serveur</li>" +
+      "<li>Installation d’un pare à feu sur le site avec PfSense et Debian pour filtrer la connexion dans le site, l’intégration de sécurité d’authentification pour que seulement les employés du site pourraient connecter vers l’internet et aussi le blocage de certain site web lors de l’heure de travaille.</li>" +
       "</ul>",
   },
   {
     title: "Stagiaire en Domotique",
-    date: "2019",
+    date: "Mars 2019 - Décembre 2019",
     institute: "STEM for Good",
     city: "Akorondrano Antananarivo",
     description:

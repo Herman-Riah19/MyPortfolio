@@ -1,8 +1,32 @@
 <script lang="ts">
+  import anime from "animejs";
+  import {
+    animationAlternateLeft,
+    animationAlternateRight,
+  } from "../../animation/animate";
   import Row from "../grid/Row.svelte";
   import SectionTitle from "../typography/SectionTitle.svelte";
   import TextGradient from "../typography/TextGradient.svelte";
   import TextMuted from "../typography/TextMuted.svelte";
+  import { onMount } from "svelte";
+  export let contactCard1: any,
+    contactCard2: any,
+    contactCard3: any,
+    contactCard4: any;
+    
+  const setupContactAnimation = () => {
+    anime
+      .timeline({
+        easing: "easeInSine",
+        autoplay: true,
+        duration: 1000,
+      })
+      .add(animationAlternateLeft(contactCard1))
+      .add(animationAlternateRight(contactCard2))
+      .add(animationAlternateLeft(contactCard3))
+      .add(animationAlternateRight(contactCard4));
+  };
+  onMount(setupContactAnimation);
 </script>
 
 <section id="contact" class="contact">
@@ -11,7 +35,7 @@
     <div class="col-lg-12 d-flex align-items-stretch">
       <div class="info">
         <Row>
-          <div class="col-xs-12 col-sm-8 col-md-6 ">
+          <div class="col-xs-12 col-sm-8 col-md-6" bind:this={contactCard1}>
             <div class="d-flex align-items-center mb-4">
               <div
                 class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
@@ -21,13 +45,13 @@
               <div class="d-inline">
                 <TextGradient>Location:</TextGradient>
                 <TextMuted>
-                  Lot IB 86 Antanambao Imeritsiatosika<br />
+                  Antanambao Imeritsiatosika<br />
                   Antananarivo, 112
                 </TextMuted>
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-8 col-md-6 ">
+          <div class="col-xs-12 col-sm-8 col-md-6" bind:this={contactCard2}>
             <div class="d-flex align-items-center mb-4">
               <div
                 class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
@@ -40,7 +64,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-8 col-md-6 ">
+          <div class="col-xs-12 col-sm-8 col-md-6" bind:this={contactCard3}>
             <div class="d-flex align-items-center mb-4">
               <div
                 class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
@@ -52,7 +76,22 @@
                 <TextMuted>+261338022616</TextMuted>
               </div>
             </div>
+          </div>
+          <div class="col-xs-12 col-sm-8 col-md-6" bind:this={contactCard4}>
+            <div class="d-flex align-items-center mb-4">
+              <div
+                class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
+              >
+                <i class="bx bxl-facebook" />
+              </div>
+              <div class="d-inline">
+                <TextGradient>Linkedin</TextGradient>
+                <a href="https://www.linkedin.com/in/hermann-razafindranaivo-174378237/">
+                <TextMuted>Hermann Razafindranaivo</TextMuted>
+                </a>
+              </div>
             </div>
+          </div>
         </Row>
       </div>
     </div>
@@ -68,7 +107,6 @@
       padding: 30px;
       background: #fff;
       width: 100%;
-      box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     }
   }
 

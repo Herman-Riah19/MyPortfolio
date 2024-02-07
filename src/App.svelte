@@ -4,56 +4,37 @@
   import Container from "./component/container/Container.svelte";
   import Framework from "./component/container/Framework.svelte";
   import Services from "./component/container/Services.svelte";
-  import SectionTitle from "./component/typography/SectionTitle.svelte";
   import ShadowContainer from "./component/container/ShadowContainer.svelte";
   import Resume from "./component/Resume.svelte";
   import Contact from "./component/container/Contact.svelte";
   import Navbar from "./component/header/Navbar.svelte";
   import Footer from "./component/Footer.svelte";
-  import { onMount } from "svelte";
-  import anime from "animejs";
+  import BackToTop from "./component/button/BackToTop.svelte";
+    
+  import { contactCard1, contactCard2, contactCard3, contactCard4, gradientCard, infoAnimate, linkAnimate, titleAnimate } from "./animation/animate";
 
-  let gradientCard: any, titleAnimate: any;
-
-  const animation = (targets: any) => ({
-    targets,
-    translateX: [-1000, 1],
-    direction: "alternate",
-  });
-
-  const setup = () => {
-    anime
-      .timeline({
-        easing: "easeInSine",
-        autoplay: true,
-        duration: 1000,
-      })
-      .add(animation(gradientCard));
-  };
-
-  onMount(setup);
 </script>
 
 <div>
   <Navbar />
   <main role="main" class="main">
-    <Carouselle/>
-     <Container>
-      <Contact />
-     </Container> 
+    <Carouselle gradientCard={gradientCard} titleAnimate={titleAnimate} infoAnimate={infoAnimate} linkAnimate={linkAnimate} />
+    <Container>
+      <Contact
+        contactCard1={contactCard1} 
+        contactCard2={contactCard2} 
+        contactCard3={contactCard3} 
+        contactCard4={contactCard4} />
+    </Container>
     <Container>
       <Services />
       <Projects />
       <ShadowContainer>
         <Resume />
       </ShadowContainer>
-
-      <Container id="technologies">
-        <SectionTitle>Technologies</SectionTitle>
-        <Framework />
-      </Container>
-      
+      <Framework />
     </Container>
+    <BackToTop/>
   </main>
   <Footer />
 </div>

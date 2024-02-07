@@ -21,3 +21,9 @@
   </div>
 </ShadowContainer>
 
+<style>
+  .text-justify{
+    text-align: justify;
+  }
+</style>
+

@@ -6,14 +6,13 @@
     Database,
   } from "../../model/TechnologieModel";
   import TechnologieCard from "../card/TechnologieCard.svelte";
-  import Column from "../grid/Column.svelte";
   import Row from "../grid/Row.svelte";
   import SectionTitle from "../typography/SectionTitle.svelte";
-  import ShadowContainer from "./ShadowContainer.svelte";
   import TextGradient from "../typography/TextGradient.svelte";
 </script>
 
-<ShadowContainer>
+<div id="technologies" class="technologies">
+  <SectionTitle>Technologies</SectionTitle>
   <div class="m-2">
     <div class="d-flex align-items-center mb-4">
       <div
@@ -82,4 +81,12 @@
       {/each}
     </Row>
   </div>
-</ShadowContainer>
+</div>
+
+<style lang="scss">
+  .technologies {
+    margin-top: 120px;
+    padding-top: 100px;
+    padding-bottom: 130px;
+  }
+</style>

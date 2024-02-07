@@ -44,7 +44,7 @@
 <style lang="scss">
   .card {
     height: 250px;
-    border: none;
+    border: none;    
 
     img {
         height: 100px;

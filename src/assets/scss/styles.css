@@ -65,7 +65,7 @@
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #1e30f3;
   --bs-link-hover-color: #1826c2;
-  --bs-code-color: #e21e80;
+  --bs-code-color: #06934d;
   --bs-highlight-bg: #fff3cd;
 }
 
@@ -2852,19 +2852,19 @@ textarea.form-control-lg {
 
 .btn-secondary {
   --bs-btn-color: #000;
-  --bs-btn-bg: #e21e80;
-  --bs-btn-border-color: #e21e80;
+  --bs-btn-bg: #e2451e;
+  --bs-btn-border-color: #e2451e;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #e64093;
-  --bs-btn-hover-border-color: #e5358d;
+  --bs-btn-hover-bg: #e65340;
+  --bs-btn-hover-border-color: #e65340;
   --bs-btn-focus-shadow-rgb: 192, 26, 109;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #e84b99;
-  --bs-btn-active-border-color: #e5358d;
+  --bs-btn-active-bg: #e65340;
+  --bs-btn-active-border-color: #e65340;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #e21e80;
-  --bs-btn-disabled-border-color: #e21e80;
+  --bs-btn-disabled-bg: #e2381e;
+  --bs-btn-disabled-border-color: #e2381e;
 }
 
 .btn-success {
@@ -2987,19 +2987,20 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary {
-  --bs-btn-color: #e21e80;
-  --bs-btn-border-color: #e21e80;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #e21e80;
-  --bs-btn-hover-border-color: #e21e80;
-  --bs-btn-focus-shadow-rgb: 226, 30, 128;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #e21e80;
-  --bs-btn-active-border-color: #e21e80;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #e21e80;
+  --bs-btn-color: #e2451e;
+    --bs-btn-border-color: #e2451e;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #e65340;
+    --bs-btn-hover-border-color: #e65340;
+    --bs-btn-focus-shadow-rgb: 192, 26, 109;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #e65340;
+    --bs-btn-active-border-color: #e65340;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #e2381e;
+    --bs-btn-disabled-border-color: #e2381e;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #e21e80;
   --bs-gradient: none;
 }
 
@@ -11546,11 +11547,11 @@ html {
 
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: linear-gradient(135deg, #1e30f3 0%, #212529 100%);
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #212529 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

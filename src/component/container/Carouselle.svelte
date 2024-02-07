@@ -4,28 +4,21 @@
   import Badge from "../tools/Badge.svelte";
   import TextGradient from "../typography/TextGradient.svelte";
   import SectionTitle from "../typography/SectionTitle.svelte";
+  import Row from "../grid/Row.svelte";
+  import Information from "./Information.svelte";
   import { onMount } from "svelte";
   import anime from "animejs";
-  import Row from "../grid/Row.svelte";
-  import Column from "../grid/Column.svelte";
-  import Information from "./Information.svelte";
+  import {
+    textAnimation,
+    animationAlternateLeft,
+  } from "../../animation/animate";
 
-  let gradientCard: any, titleAnimate: any;
-
-  const animation = (targets: any) => ({
-    targets,
-    translateX: [-1000, 1],
-    direction: "alternate",
-  });
-
-  const textAnimation = (targets: any) => ({
-    targets,
-    translateX: [350, 1],
-    direction: "alternate",
-    loop: true,
-  });
-
-  const setup = () => {
+  export let gradientCard: any,
+    titleAnimate: any,
+    infoAnimate: any,
+    linkAnimate: any;
+    
+  const setupCarouselleAnimate = () => {
     anime
       .timeline({
         easing: "easeInSine",
@@ -33,10 +26,11 @@
         duration: 1000,
       })
       .add(textAnimation(titleAnimate))
-      .add(animation(gradientCard));
+      .add(animationAlternateLeft(gradientCard))
+      .add(textAnimation(infoAnimate))
+      .add(animationAlternateLeft(linkAnimate));
   };
-
-  onMount(setup);
+  onMount(setupCarouselleAnimate);
 </script>
 
 <section id="home" class="container">
@@ -44,7 +38,9 @@
     <div class="col-xxl-5">
       <!-- Header text content-->
       <div class="text-center text-xxl-start" bind:this={titleAnimate}>
-        <Badge>Designer UI/UX &middot;  Développeur Web &middot; Data Analyst</Badge>
+        <Badge
+          >Designer UI/UX &middot; Développeur Web &middot; Data Analyst</Badge
+        >
         <div class="fs-3 fw-light text-muted">Bonjour! Je m'appelle</div>
         <SectionTitle>Hermann Christian</SectionTitle>
         <h1 class="display-3 fw-bolder mb-1">
@@ -68,12 +64,9 @@
     </div>
     <!-- Header profile picture-->
     <div class="col-xxl-5">
-      <div class="d-flex align-items-center mt-5 p-8">
-        <Information />
-      </div>
       <div class="d-flex justify-content-center mt-xxl-0">
         <Row>
-          <div class="contact" bind:this={gradientCard}>
+          <div class="contact" bind:this={linkAnimate}>
             <div class="contact-about">
               <div class="social-links">
                 <a
@@ -104,6 +97,9 @@
             </div>
           </div>
         </Row>
+      </div>
+      <div class="d-flex align-items-center mt-5 p-8" bind:this={infoAnimate}>
+        <Information />
       </div>
     </div>
   </div>

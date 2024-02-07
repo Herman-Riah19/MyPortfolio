@@ -11,7 +11,7 @@
 <section id="resumes" class="resume">
     <SectionTitle>Résumés</SectionTitle>
 
-    <Container>
+    <div>
       <div class="d-flex align-items-center mb-4">
         <div
           class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
@@ -23,9 +23,15 @@
         </h3>
       </div>
       {#each experience as item}
-        <ResumeCard model={item} />
+        <ResumeItem 
+          title={item.title}
+          date={item.date}
+          city={item.city}
+          institute={item.institute}
+          description={item.description} />
+        <!-- <ResumeCard model={item} /> -->
       {/each}
-    </Container>
+    </div>
     <Container>
       <div class="d-flex align-items-center mb-4">
         <div
