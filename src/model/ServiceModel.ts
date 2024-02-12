@@ -22,10 +22,4 @@ export const ServiceModel: Array<Model> = [
     name: "Data Analyst",
     description:"Analyser les données utilisant des scriptes d'intélligence Artificielle efficace qui permet de faire un système de prévision performant.",
   },
-  {
-    id: 4,
-    name: "Network Security",
-    description:
-      "Garantir la protection de vos données et la sécurité de votre entreprise avec nos solutions de pointe, conçues pour sécuriser votre présence numérique.",
-  },
 ];

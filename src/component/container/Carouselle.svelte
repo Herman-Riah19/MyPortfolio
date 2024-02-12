@@ -35,21 +35,22 @@
 
 <section id="home" class="container">
   <div class="row gx-5 align-items-center">
-    <div class="col-xxl-5">
+    <div class="col-xxl-12 text-center align-content-center">
       <!-- Header text content-->
       <div class="text-center text-xxl-start" bind:this={titleAnimate}>
         <Badge
           >Designer UI/UX &middot; Développeur Web &middot; Data Analyst</Badge
         >
-        <div class="fs-3 fw-light text-muted">Bonjour! Je m'appelle</div>
+        <div class="fs-3 fw-light text-muted text-center">Bonjour! Je m'appelle</div>
         <SectionTitle>Hermann Christian</SectionTitle>
-        <h1 class="display-3 fw-bolder mb-1">
+        <h1 class="display-3 fw-bolder mb-1 text-center">
           <TextGradient>RAZAFINDRANAIVO</TextGradient>
         </h1>
-        <TextGradient>hermannchristianr@gmail.com</TextGradient>
+        <div class="text-center text-gradient">
+          hermannchristianr@gmail.com</div>
       </div>
     </div>
-    <div class="col-xxl-5">
+    <div class="col-xxl-12">
       <div class="d-flex justify-content-center mt-xxl-0">
         <div
           class="profile bg-gradient-primary-to-secondary"
@@ -63,7 +64,7 @@
       </div>
     </div>
     <!-- Header profile picture-->
-    <div class="col-xxl-5">
+    <div class="col-lg-12">
       <div class="d-flex justify-content-center mt-xxl-0">
         <Row>
           <div class="contact" bind:this={linkAnimate}>
