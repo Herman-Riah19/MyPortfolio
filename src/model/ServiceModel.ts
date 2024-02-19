@@ -15,11 +15,18 @@ export const ServiceModel: Array<Model> = [
     id: 2,
     name: "Dévéloppement Application",
     description:
-      "Transformez votre concept d'application en réalité grâce à notre expertise en développement d'applications. Des applications mobiles aux solutions logicielles robustes.",
+      "Transformez le concept d'application en réalité grâce à notre expertise en développement d'applications. Des applications mobiles aux solutions logicielles robustes.",
   },
+  // {
+  //   id: 3,
+  //   name: "Déployement",
+  //   description:
+  //     "Assurer l'hebergement et le Déployement du site vers un serveur dédier avec des configurations de système de sécurité du site",
+  // },
   {
-    id: 3,
+    id: 4,
     name: "Data Analyst",
-    description:"Analyser les données utilisant des scriptes d'intélligence Artificielle efficace qui permet de faire un système de prévision performant.",
+    description:
+      "Analyser les données utilisant des scriptes d'intélligence Artificielle efficace qui permet de faire un système de prévision performant.",
   },
 ];

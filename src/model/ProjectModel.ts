@@ -1,4 +1,4 @@
-import Rainbow from "../assets/image/raimbow.png"
+import Rainbow from "../assets/image/raimbow1.png"
 import Jupiter from "../assets/image/Jupiter.png"
 import Trink from "../assets/image/1676461341750.png"
 export interface Model {

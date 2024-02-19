@@ -37,9 +37,9 @@
   <div class="row gx-5 align-items-center">
     <div class="col-xxl-12 text-center align-content-center">
       <!-- Header text content-->
-      <div class="text-center text-xxl-start" bind:this={titleAnimate}>
+      <div class="text-center" bind:this={titleAnimate}>
         <Badge
-          >Designer UI/UX &middot; Développeur Web &middot; Data Analyst</Badge
+          >Integrateur &middot; Développeur Web &middot; Data Analyst</Badge
         >
         <div class="fs-3 fw-light text-muted text-center">Bonjour! Je m'appelle</div>
         <SectionTitle>Hermann Christian</SectionTitle>

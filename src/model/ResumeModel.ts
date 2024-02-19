@@ -50,11 +50,11 @@ const experience: Array<ResumeModel> = [
     institute: "Quantium",
     city: "Faravohitra, Antananarivo",
     description:
-      "En tant que Développeur Lead en Python, je dirige une équipe de scripteur au sein de la société Quantium pour le compte de ces clients comme:" +
-      "<ul><li>Réalisation du script Python de générateurs de leads pour améliorer le référencement d’une site Suisse sur Google</li>" +
-      "<li>Écriture de scripts Python de web scraping pour la collecte de données de clients potentiels pour le même site</li>" +
-      "<li>Analyse et vérification des listes d’email client obtenue afin d’envoyer un spam Publicitaire en utilisant toujours un script Python si ces emails sont encore actif</li>" +
-      "<li>Développement d'une application de SAAS pour la gestion des données dans un commerce avec Flask</li>" +
+      "En tant que Développeur Lead en Python, je dirige une équipe de Développeur au sein de la société Quantium pour le compte de ces clients pour:" +
+      "<ul><li>Programmer un script de générateurs de leads pour améliorer le référencement d’une site</li>" +
+      "<li>Écriture de scripts de web scrapping pour la collecte de données de clients potentiels</li>" +
+      "<li>Analyser et vérifier des listes d’email client obtenue afin d’envoyer un spam Publicitaire</li>" +
+      "<li>Développer une application de SAAS pour la gestion des données dans un commerce</li>" +
       "</ul>",
   },
   {
@@ -63,9 +63,9 @@ const experience: Array<ResumeModel> = [
     institute: "Fpay",
     city: "Andohalo, Antananarivo",
     description:
-      "Durant mon poste en développeur d'application web chez FPay, j'ai contribué à la réalisation des projets en utilisant les technologies Flask pour le développement Backend et les frameworks React JS pour le développement Frontend enassurant les tâches suivantes:" +
-      "<ul><li>J’ai notamment participé à la Conception d'une application web de crowdfounding [Flask, ReactJS et Firebase] en intégrant l’authentification, d’injection des offres forfaitaire des Opérateurs mobiles, d’assurer aussi l’Intégration des codes USSD des opérateurs mobiles sous forme d’un API pour des transactions mobiles telle que l’achat de forfait internet, transfert d’argent grace à Mobile money, et achat d'abonnement Canal+.</li>" +
-      "<li>J’ai également participé dans la refont d’un application web de gestion d’agence qui était développée en Flask réécrit en NextJS pour améliorer sa performance utilisateur et aussi d’ajouter un système de payement grâce à l’intégration d’un API de crowdfunding  </li>" +
+      "Durant mon poste en développeur full stack chez FPay, j'ai contribué à la réalisation des projets en utilisant les technologies Flask pour le développement Backend et les frameworks React pour le développement Frontend:" +
+      "<ul><li>J’ai notamment participé à la Conception d'une plateforme de crowdfounding [Flask, ReactJS et Firebase] en intégrant l’authentification, l’injection des offres forfaitaire des Opérateurs mobiles, et aussi l’Intégration des codes USSD des opérateurs mobiles sous forme d’un API pour des transactions mobiles telle que l’achat de forfait internet, transfert d’argent grace à Mobile money, et paiement des abonnements Canal+.</li>" +
+      "<li>J’ai également participé dans la refont d’une application de gestion d’agence qui était développée en Flask réécrit en Next JS pour améliorer sa performance utilisateur. </li>" +
       "</ul>",
   },
   {
@@ -74,7 +74,10 @@ const experience: Array<ResumeModel> = [
     institute: "Projet Personnel",
     city: "Imeritsiatosika, Antananarivo",
     description:
-      "Conception d'une application monolithique avec Adonis JS, ReactJS et Inertia JS. Cette application est un réseau social destiné aux dessinateurs numériques et générateurs d'images par IA, mettant en avant leur talent et leur spécialité tout en protégeant leurs droits d’auteur.<a href='https://github.com/Herman-Riah19/TryInc'>Code source</a>",
+      "J'ai utilisé mes compétences en AdonisJS, React et Inertia JS pour:<ul>" +
+      "<li>Créer un réseau social destiné aux dessinateurs numériques et générateurs d'images par IA, mettant en avant leur talent et leur spécialité tout en protégeant leurs droits <a href='https://github.com/Herman-Riah19/TryInc'>Code source</a></li>" +
+      "<li>Développer une application de galerie de photos local <a href='https://github.com/Herman-Riah19/LoopbackReactProject'>Code source</a></li>" +
+      "</ul>",
   },
   {
     title: "Intégrateur React JS",
@@ -82,7 +85,7 @@ const experience: Array<ResumeModel> = [
     institute: "Freelance",
     city: "Andravoahangy, Antananarivo",
     description:
-      "Lors de mon visite dans un site de freelance, j’ai eu comme mission l’Intégration d'une application web de vente de NFT de jeux vidéo japonais en utilisant ReactJS et Material UI où j’assure la page de Dashboard de l’application en assurant respectivement le détail du Design offert par le client. <a href='https://dash-dark-game.netlify.app]'>Site</a>",
+      "Lors de mon visite dans un site de freelance, j’ai eu comme mission l’Intégration d'une application de vente des NFT de jeux vidéos japonais en utilisant ReactJS et Material UI où j’assure la page de Dashboard de l’application en assurant respectivement le détail du Design offert par le client. <a href='https://dash-dark-game.netlify.app]'>Site</a>",
   },
   {
     title: "Bénévolat en Technicien informatique et multimédia",
@@ -90,11 +93,11 @@ const experience: Array<ResumeModel> = [
     institute: "Bureau Eglise Evangelique Shine",
     city: "Andravoahangy, Antananarivo",
     description:
-      "Durant 3 ans dans le post de Bénévolat au sein de bureau de l’Eglise Evangélique Shine où j’ai assuré plusieurs tâches en Technicien informatique et multimédia :" +
-      "<ul><li>La Maintenance des appareils informatiques dans le site et la vérification des installations réseaux pour assurer sa fonctionnalité durant le jour du travaille</li>" +
-      "<li>Le Montage vidéo des prèches du pasteur et la conception des Jackets et Stikers pour bien représenter le support en DVD</li>" +
-      "<li>La création de supports multimédias telle que les Flyers, les Cartes de voeux et aussi la couverture de la Bible pour des événements religieux</li>" +
-      "<li>Le Développement d’un générateur de QRCode dans un invitation lors des événements religieux en utilisant AdonisJS comme framework Back end et mette en place la verification de cette QrCode s’il est valide lors de scan<a href='https://github.com/Herman-Riah19/QRCodeGenerate'>Source code</a></li>" +
+      "Durant 2 ans dans le post de Bénévolat au sein de bureau de l’Eglise Evangélique Shine où j’ai assuré plusieurs tâches en Technicien informatique et multimédia :" +
+      "<ul><li>Maintenance des appareils informatiques dans le site et la vérification des installations réseaux pour assurer sa fonctionnalité durant le jour du travaille</li>" +
+      "<li>Montage vidéo des prèches du pasteur et la conception des Jackets et Stikers pour bien représenter le support en DVD</li>" +
+      "<li>Création de supports multimédias telle que les Flyers, les Cartes de voeux et aussi la couverture de la Bible pour des événements religieux</li>" +
+      "<li>Développement d’un générateur de QRCode dans un invitation lors des événements religieux en utilisant AdonisJS comme framework Back end et mette en place la verification de cette QrCode s’il est valide lors de scan<a href='https://github.com/Herman-Riah19/QRCodeGenerate'>Source code</a></li>" +
       "</ul>",
   },
   {
@@ -111,7 +114,7 @@ const experience: Array<ResumeModel> = [
     institute: "Rainbow MDG By Pass",
     city: "By Pass, Antananarivo",
     description:
-      "J’ai été contacté par un agence de distribution des vêtements pour femme pour Développer l’intégralité d’une application web de e-commerce en utilisant TypeScript, MySQL, Angular, Express, et NodeJS afin de le permettre de vendre leur produit dépuis leur propre plateforme.",
+      "J’ai été contacté par un agence de fashion mode pour femme pour Développer l’intégralité d’un e-commerce en utilisant TypeScript, MySQL, Angular, Express, et NodeJS afin de le permettre de vendre leur produit dépuis leur propre plateforme.",
   },
   {
     title: "Stagiaire en Technicien informatique",
@@ -140,10 +143,9 @@ const experience: Array<ResumeModel> = [
     city: "Analaakely, Antananarivo",
     description:
       "Durant mes étude au sein de l’université GSI, j’ai grandement pratiqué et Développé plusieurs projets personnels afin d’améliorer les connaissances en Développement en général mais aussi me faire préparé en avance vers le monde professionnels. Alors voici les listes des différentes projets le plus rémarquant durant cette parcours Universitaire:" +
-      "<ul><li>J’ai développé une application web en d'une galerie de photos à l'aide de Loopback 4 avec TypeScript pour le back-end et ReactJS pour le front-end (Début 2021), c’était mon premier projet en utilisant des Frameworks Back end et Front End mais aussi mon premier projet Multiservice <a href='https://github.com/Herman-Riah19/LoopbackReactProject'>Source code</a></li>" +
-      "<li>J’ai aussi développé une application web dynamique avec PHP/MySQL pour la gestion des listes de voiture à vendre en rendre compte les différentes catégories de voiture existant dans le centre et aussi ses prix</li>" +
-      "<li>J’ai aussi développé un site web statique pour résumer les différentes cours que nous avons appris au sein de l’Université GSI avec aussi à titre d’exercice sur l’intégration en général avec HTML, CSS et JavaScript </li>" +
-      "<li>Pour mon prejet de fin d’étude; j’ai développé un logicielle, en C++ et le Framework Qt, de Dimensionnement des Réseaux 4G pour calculer et planifier de l’avance quel sera la capacité de fréquence utiliser et aussi le nombre de pylone à installer selon la nature du terrain où on veut installer un Réseau de Télécommunication 4G</li>" +
+      "<ul><li>J’ai développé une application web dynamique avec PHP/MySQL pour la gestion des listes de voiture à vendre en rendre compte les différentes catégories de voiture existant dans le centre et aussi ses prix</li>" +
+      "<li>J’ai développé un site web statique pour résumer les différentes cours que nous avons appris au sein de l’Université GSI avec aussi à titre d’exercice sur l’intégration en général avec HTML, CSS et JavaScript </li>" +
+      "<li>Pour mon projet de fin d’étude, j’ai développé un logicielle de Dimensionnement des Réseaux de Télécommunication 4G utilisant C++ et le Framework Qt pour calculer et planifier de l’avance quel sera la capacité de fréquence utiliser et aussi le nombre de pylone à installer selon la nature de l'environnement où on veut installer un Réseau 4G</li>" +
       "</ul>",
   },
 ];

@@ -7,7 +7,7 @@
   const listeStartValidate = [];
 </script>
 
-<div class="col-lg-2 col-md-4 col-sm-8 col-xs-12 mt-5">
+<div class="col-lg-2 col-md-4 col-sm-6 col-xs-5 mt-5">
   <div class="card justify-content-center text-center">
     <div class="justify-content-center">
       <img
