@@ -3,7 +3,6 @@
   import Carouselle from "./component/container/Carouselle.svelte";
   import Container from "./component/container/Container.svelte";
   import Framework from "./component/container/Framework.svelte";
-  import Services from "./component/container/Services.svelte";
   import ShadowContainer from "./component/container/ShadowContainer.svelte";
   import Resume from "./component/Resume.svelte";
   import Contact from "./component/container/Contact.svelte";
@@ -27,7 +26,6 @@
         contactCard4={contactCard4} />
     </Container>
     <Container>
-      <Services />
       <Projects />
       <ShadowContainer>
         <Resume />

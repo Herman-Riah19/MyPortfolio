@@ -59,12 +59,6 @@ export const LanguagesModel: Array<Language> = [
         icon: `${Python}`,
         star: 3.5
     },
-    {
-        id:3,
-        name: "JavaScript",
-        icon: `${JavaScript}`,
-        star: 4
-    }
 ]
 
 export const Database: Array<Model> = [
@@ -153,22 +147,6 @@ export const Tools: Array<Model> = [
   },
   {
     id: 6,
-    name: "Inertia",
-    language: "Adapter",
-    type: "Systemde d'Exploitation",
-    icon: `${Inertia}`,
-    star: 3,
-  },
-  {
-    id: 7,
-    name: "Vs Code",
-    language: "Editeur Code",
-    type: "Systemde d'Exploitation",
-    icon: `${VsCode}`,
-    star: 4,
-  },
-  {
-    id: 8,
     name: "Figma",
     language: "Design UI/UX",
     type: "Systemde d'Exploitation",
@@ -176,23 +154,7 @@ export const Tools: Array<Model> = [
     star: 3,
   },
   {
-    id: 9,
-    name: "Photoshop",
-    language: "Photo Editeur",
-    type: "Systemde d'Exploitation",
-    icon: `${Photoshop}`,
-    star: 4,
-  },
-  {
-    id: 10,
-    name: "Premier",
-    language: "Editeur Vidéo",
-    type: "Systemde d'Exploitation",
-    icon: `${Premier}`,
-    star: 2,
-  },
-  {
-    id: 11,
+    id: 7,
     name: "Apache",
     language: "Serveur",
     type: "Systemde d'Exploitation",
@@ -200,28 +162,12 @@ export const Tools: Array<Model> = [
     star: 3,
   },
   {
-    id: 12,
+    id: 8,
     name: "Material UI",
     language: "UI Kit",
     type: "Systemde d'Exploitation",
     icon: `${MaterialUI}`,
     star: 4,
-  },
-  {
-    id: 13,
-    name: "Joplin",
-    language: "Markdown",
-    type: "Systemde d'Exploitation",
-    icon: `${Joplin}`,
-    star: 4,
-  },
-  {
-    id: 14,
-    name: "Archlinux",
-    language: "Systeme d'Exploitation",
-    type: "Systemde d'Exploitation",
-    icon: `${Archlinux}`,
-    star: 2,
   },
 ];
 
@@ -237,6 +183,14 @@ export const TechnologieModel: Array<Model> = [
   },
   {
     id: 2,
+    name: "Adonisjs",
+    language: "TypeScript",
+    type: "Framework Back-End",
+    icon: `${Adonisjs}`,
+    star: 3.5,
+  },
+  {
+    id: 3,
     name: "React",
     language: "TypeScript",
     type: "Framework Front-End",
@@ -244,43 +198,12 @@ export const TechnologieModel: Array<Model> = [
     star: 4,
   },
   {
-    id: 3,
+    id: 4,
     name: "Nextjs",
     language: "TypeScript",
     type: "Framework Rendering",
     icon: `${Nextjs}`,
     star: 4,
   },
-  {
-    id: 4,
-    name: "Svelte",
-    language: "TypeScript",
-    type: "Framework Front-End",
-    icon: `${Svelte}`,
-    star: 2,
-  },
-  {
-    id: 5,
-    name: "Angular",
-    language: "TypeScript",
-    type: "Framework Front-End",
-    icon: `${Angular}`,
-    star: 3,
-  },
-  {
-    id: 6,
-    name: "Express",
-    language: "TypeScript",
-    type: "Framework Back-End",
-    icon: `${Node}`,
-    star: 3.5,
-  },
-  {
-    id: 7,
-    name: "Adonisjs",
-    language: "TypeScript",
-    type: "Framework Back-End",
-    icon: `${Adonisjs}`,
-    star: 3.5,
-  },
+  
 ];

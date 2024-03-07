@@ -26,9 +26,6 @@
             <a href="#contact" class="nav-link">Contact</a>
           </li>
           <li class="nav-item">
-            <a href="#service" class="nav-link">Services</a>
-          </li>
-          <li class="nav-item">
             <a href="#projects" class="nav-link">Projects</a>
           </li>
           <li class="nav-item">
