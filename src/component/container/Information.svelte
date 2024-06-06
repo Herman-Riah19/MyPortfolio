@@ -4,7 +4,7 @@
   import ShadowContainer from "./ShadowContainer.svelte";
 </script>
 
-<ShadowContainer>
+<ShadowContainer classname="w-75">
   <div class="content d-flex flex-column justify-content-center">
     <SectionTitle>À propos</SectionTitle>
     <TextMuted> 

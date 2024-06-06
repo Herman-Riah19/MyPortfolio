@@ -4,8 +4,8 @@
 </script>
 
 <section id="about">
-  <Container classname="px-3">
-    <div class="row gx-5 justify-content-center">
+  <Container classname="px-3 ">
+    <div class="row gx-5 justify-content-center ">
       <div class="col-xxl-8">
         <div class="text-left my-5">
           <SectionTitle>About me</SectionTitle>
@@ -22,7 +22,7 @@
   >
 </section>
 
-<style>
+<style type="scss">
   #about {
     padding-top: 50px;
   }

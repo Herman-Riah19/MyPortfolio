@@ -99,7 +99,7 @@
           </div>
         </Row>
       </div>
-      <div class="d-flex align-items-center mt-5 p-8" bind:this={infoAnimate}>
+      <div class="d-flex justify-content-center mt-5 p-8" bind:this={infoAnimate}>
         <Information />
       </div>
     </div>
